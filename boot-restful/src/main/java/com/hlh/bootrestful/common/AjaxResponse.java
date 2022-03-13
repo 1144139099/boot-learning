@@ -32,6 +32,7 @@ public class AjaxResponse {
         this.data = data;
     }
 
+
     public static AjaxResponse success(){
         AjaxResponse ajaxResponse = new AjaxResponse();
         ajaxResponse.setCode(200);

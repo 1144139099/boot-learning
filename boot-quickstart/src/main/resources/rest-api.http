@@ -1,0 +1,2 @@
+GET http://localhost:8888/hello
+Accept: text/plain
