@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_soft
+    username: root
+    password: hlh320123678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+    jpa:
+      properties:
+        hibernate:
+          hbm2ddl:
+            auto: update
+      show-sql: true
