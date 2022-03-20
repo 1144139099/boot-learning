@@ -2,7 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="testBeanService" class="com.hlh.boot.service.TestBeanService"><property name="name" value="SpringBoot"/>
+    <bean id="testBeanService" class="com.hlh.boot.service.TestBeanService">
+        <property name="name" value="SpringBoot"/>
 </bean>
+    <bean id="testBean1" class="com.hlh.boot.service.TestBeanService">
+    <!--构造器注入-->
+    <constructor-arg name="name" value="spring"></constructor-arg>
+    </bean>
 
 </beans>

@@ -1,0 +1,17 @@
+family:
+  family-name: ENC(i8QMJGzaM/3Qsubvghpn9WbqNdrS8kmx)
+    father:
+      age: 38
+      name: tom
+    mother:
+      alias:
+        - rose
+        - alice
+    child:
+      name: jack
+      age: 6
+      friends:
+        - gender: male
+          hobby: play
+        - gender: female
+          hobby: sing

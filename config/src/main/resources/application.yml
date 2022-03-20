@@ -1,0 +1,28 @@
+#family:
+#  family-name: "happy family"
+#  father:
+#    name: tom
+#    age: 38
+#  mother:
+#    alias:
+#      - rose
+#      - alice
+#  child:
+#    name: jack
+#    age: 9
+#    friends:
+#      - hobby: basketball
+#        gender: male
+#      - hobby: sing
+#        gender: female
+
+
+#spring:
+#  profiles:
+#    active: prod
+
+#server:
+#  port: 8888
+jasypt:
+  encryptor:
+    password: 123456

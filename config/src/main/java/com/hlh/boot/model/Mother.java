@@ -1,2 +1,4 @@
-package com.hlh.boot.model;public class Mother {
+package com.hlh.boot.model;
+
+public class Mother {
 }
