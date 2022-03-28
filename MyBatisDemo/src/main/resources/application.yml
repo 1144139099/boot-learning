@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://124.221.232.15:3306/springboot?allowMultiQueries=true
+    username: root
+    password: hlh320123678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.hlh.Mybts.mybatis.domain
+  configuration:
+         map-underscore-to-camel-case: true
