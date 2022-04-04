@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hlh.boot.mapper.ArticleMapper">
+
+
+    <insert id="insertArticle" parameterType="com.hlh.boot.model.entity.Article">
+        INSERT INTO t_article(category, user_id, title, cover, content, url, create_time, total_words, duration, page_view, summary) VALUES
+
+            (#{article.category}, #{article.userId}, #{article.title}, #{article.cover}, #{article.content}, #{article.url}, #{article.createTime}, #{article.totalWords}, #{article.duration}, #{article.pageView}, #{article.summary})
+
+    </insert>
+
+
+    <select id="findArticleById" resultType="com.hlh.boot.model.entity.Article">
+        SELECT *
+        FROM t_article WHERE id = #{id}
+    </select>
+</mapper>
+
