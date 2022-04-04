@@ -1,1 +1,16 @@
+spring:
+  freemarker:
+    cache: false
+    suffix: .ftl
+    charset: UTF-8
+    template-loader-path: classpath:/templates/
 
+  thymeleaf:
+    cache: false
+    check-template-location: true
+    enabled: true
+    encoding: UTF-8
+    excluded-view-names:
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
