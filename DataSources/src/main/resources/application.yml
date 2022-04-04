@@ -1,1 +1,14 @@
+spring:
+  datasource:
+     primary:
+        username: root
+        password: hlh320123678
+        jdbc-url: jdbc:mysql://124.221.232.15:3306/dbTest
+        driver-class-name: com.mysql.cj.jdbc.Driver
+     secondary:
+       jdbc-url: jdbc:mysql://124.221.232.15:3306/dbTest1
+       sername: root
+       password: hlh320123678
+       driver-class-name: com.mysql.cj.jdbc.Driver
+
 
